@@ -63,6 +63,7 @@ input{
     display: inline-block;
     width: 300px;
 }
+<br>
 .box4{
     border-color: black;
     border-width: 2px;
@@ -70,7 +71,6 @@ input{
     display: inline-block;
     width: 300px;
 }
-<br>
 .box5{
     border-color: black;
     border-width: 2px;
