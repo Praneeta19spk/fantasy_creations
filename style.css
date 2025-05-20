@@ -35,83 +35,17 @@ input{
     justify-items:center;
     align-items:center;
 }
-.box{
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    display: inline-block;
-    width: 300px;
+.product-item img{
+    width:180px;
+    height:auto;
+    border:1px solid;
+    padding:5px;
 }
-.box1{
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    display: inline-block;
-    width: 300px;
+.product-item p{
+    text-align:center;
+    margin-top:5px;
 }
-.box2{
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    display: inline-block;
-    width: 300px;
-}
-.box3{
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    display: inline-block;
-    width: 300px;
-}
-.box4{
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    display: inline-block;
-    width: 300px;
-}
-.box5{
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    display:inline-block;
-    width: 300px;
-}
-.box6{
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    display: inline-block;
-    width: 300px;
-}
-.box:hover{
-    background-color: black;
-    color: white;
-}
-.box1:hover{
-    background-color: black;
-    color: white;
-}
-.box2:hover{
-    background-color: black;
-    color: white;
-}
-.box3:hover{
-    background-color: black;
-    color: white;
-}
-.box4:hover{
-    background-color: black;
-    color: white;
-}
-.box5:hover{
-    background-color: black;
-    color: white;
-}
-.box6:hover{
-    background-color: black;
-    color: white;
-}
+
 .products{
     text-align: center;
     padding: 20px;
