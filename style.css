@@ -63,6 +63,20 @@ input{
     display: inline-block;
     width: 300px;
 }
+.box5{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 300px;
+}
+.box6{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 300px;
+}
 .box:hover{
     background-color: black;
     color: white;
@@ -80,6 +94,14 @@ input{
     color: white;
 }
 .box4:hover{
+    background-color: black;
+    color: white;
+}
+.box5:hover{
+    background-color: black;
+    color: white;
+}
+.box6:hover{
     background-color: black;
     color: white;
 }
