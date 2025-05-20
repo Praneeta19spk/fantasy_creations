@@ -28,6 +28,13 @@ input{
     padding: 50px;
     text-align: center;
 }
+.product-gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+    gap:20px;
+    justify-items:center;
+    align-items:center;
+}
 .box{
     border-color: black;
     border-width: 2px;
@@ -68,7 +75,7 @@ input{
     border-color: black;
     border-width: 2px;
     border-style: solid;
-    display: inline-block;
+    display:inline-block;
     width: 300px;
 }
 .box6{
