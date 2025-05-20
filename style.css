@@ -65,15 +65,27 @@ input{
     display:grid;
     grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
     gap:20px;
-    justify-items:center;
-    align-items:center;
+    padding:20px;
+}
+.product{
+    width:220px;
+    height:300px;
+    border:1px solid;
+    text-align:center;
+    padding:10px;
+    
 }
 .product-item img{
     border-color: black;
     width:180px;
     height:180px;
-    border:1px solid;
+    border:1px solid #ccc;
     padding:5px;
+    box-sizing:border-box;
+    background-color: black;
+    display:flex;
+    flex-direction:columns;
+    justify-content:space-between;
 }
 .product-item p{
     text-align:center;
