@@ -56,6 +56,13 @@ input{
     display: inline-block;
     width: 300px;
 }
+.box4{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 300px;
+}
 .box:hover{
     background-color: black;
     color: white;
@@ -69,6 +76,10 @@ input{
     color: white;
 }
 .box3:hover{
+    background-color: black;
+    color: white;
+}
+.box4:hover{
     background-color: black;
     color: white;
 }
