@@ -28,6 +28,39 @@ input{
     padding: 50px;
     text-align: center;
 }
+.box{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 300px;
+}
+.box1{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 300px;
+}
+.box2{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 300px;
+}
+.box:hover{
+    background-color: black;
+    color: white;
+}
+.box1:hover{
+    background-color: black;
+    color: white;
+}
+.box2:hover{
+    background-color: black;
+    color: white;
+}
 .product-gallery{
     display:grid;
     grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
@@ -36,8 +69,9 @@ input{
     align-items:center;
 }
 .product-item img{
+    border-color: black;
     width:180px;
-    height:auto;
+    height:180px;
     border:1px solid;
     padding:5px;
 }
