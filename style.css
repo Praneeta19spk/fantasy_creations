@@ -67,6 +67,10 @@ input{
     gap:20px;
     padding:20px;
 }
+.product-gallery:hover{
+    background-color: black;
+    color: white;
+}
 .product{
     width:220px;
     height:300px;
